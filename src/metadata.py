@@ -1,8 +1,3 @@
-"""
-Metadata filtering module for recipe search.
-Extracts filters from user queries and applies them to chunks.
-"""
-
 import json
 import re
 from typing import Optional

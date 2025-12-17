@@ -1,7 +1,3 @@
-"""
-Main RAG Pipeline combining all components.
-"""
-
 from dataclasses import dataclass
 from typing import Optional
 

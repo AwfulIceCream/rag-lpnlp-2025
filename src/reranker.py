@@ -1,7 +1,3 @@
-"""
-Reranker module using cross-encoder for improved relevance ranking.
-"""
-
 from sentence_transformers import CrossEncoder
 from .retriever import RetrievalResult
 

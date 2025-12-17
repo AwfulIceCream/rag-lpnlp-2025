@@ -1,8 +1,3 @@
-"""
-Chunking module for processing recipes dataset.
-Loads CSV data and converts recipes into searchable chunks.
-"""
-
 import ast
 import pandas as pd
 from dataclasses import dataclass

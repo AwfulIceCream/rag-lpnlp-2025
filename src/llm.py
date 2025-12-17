@@ -1,8 +1,3 @@
-"""
-LLM-agnostic wrapper using LiteLLM for multi-provider support.
-Supports Groq, OpenRouter, OpenAI, Ollama, and more.
-"""
-
 from typing import Optional
 import logging
 import litellm

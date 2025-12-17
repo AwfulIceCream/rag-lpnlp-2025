@@ -1,8 +1,3 @@
-"""
-Retriever module with BM25 and Semantic search capabilities.
-Supports toggling between methods and hybrid search.
-"""
-
 import numpy as np
 from typing import Optional
 from dataclasses import dataclass

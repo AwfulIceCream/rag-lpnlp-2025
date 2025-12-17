@@ -1,10 +1,3 @@
-"""
-Recipe RAG Question Answering System - Gradio UI
-
-A retrieval-augmented generation system for answering questions about recipes.
-Supports BM25, semantic search, reranking, and metadata filtering.
-"""
-
 import os
 import logging
 import gradio as gr
