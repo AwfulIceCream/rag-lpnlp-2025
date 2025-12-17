@@ -56,3 +56,18 @@ Thumbs.db
 
 # data folder
 data/
+
+# ML Model Weights & Binaries
+*.ckpt
+*.h5
+*.h6
+*.pb
+*.pt
+*.pth
+*.safetensors
+*.onnx
+*.gguf
+
+# Experiment Tracking
+wandb/
+mlruns/
