@@ -81,6 +81,7 @@ cp /path/to/full_dataset.csv data/
 ```
 
 The dataset should have the following columns:
+
 - `title` - Recipe name
 - `ingredients` - JSON array of ingredients
 - `directions` - JSON array of cooking steps
@@ -97,6 +98,7 @@ python app.py --data data/full_dataset.csv --max-recipes 5000
 ```
 
 Options:
+
 - `--data` - Path to CSV dataset (default: `data/full_dataset.csv`)
 - `--max-recipes` - Maximum recipes to load (default: 5000)
 - `--port` - Server port (default: 7860)
@@ -105,28 +107,33 @@ Options:
 ### Getting API Keys
 
 **Groq (Recommended - Free):**
-1. Go to https://console.groq.com/
+
+1. Go to <https://console.groq.com/>
 2. Create an account
 3. Generate API key
 
 **OpenRouter (Free options available):**
-1. Go to https://openrouter.ai/
+
+1. Go to <https://openrouter.ai/>
 2. Create an account
 3. Generate API key
 
 **Ollama (Local, no API key needed):**
-1. Install Ollama: https://ollama.com/
+
+1. Install Ollama: <https://ollama.com/>
 2. Pull a model: `ollama pull llama3.2`
 3. Select `ollama/llama3.2` in the UI
 
 ## Retrieval Method Comparison
 
-### When BM25 works better:
+### When BM25 works better
+
 - Specific ingredient searches: "recipe with cream cheese"
 - Exact keyword matches: "chocolate chip cookies"
 - When you know specific terms: "brisket marinade"
 
-### When Semantic Search works better:
+### When Semantic Search works better
+
 - Conceptual queries: "healthy dinner ideas"
 - Natural language: "something sweet for a party"
 - Synonym handling: "quick meal" → finds "fast", "easy" recipes
@@ -165,7 +172,7 @@ rag-lpnlp-2025/
 
 ## Deployment to HuggingFace Spaces
 
-1. Create a new Space on https://huggingface.co/spaces
+1. Create a new Space on <https://huggingface.co/spaces>
 2. Select "Gradio" as the SDK
 3. Upload all files
 4. Add `full_dataset.csv` to the `data/` folder
@@ -194,4 +201,3 @@ This project is for educational purposes.
 - Dataset: Recipe collection from cookbooks.com
 - Models: sentence-transformers, cross-encoder
 - LLM: Powered by Groq/OpenRouter/OpenAI
-
