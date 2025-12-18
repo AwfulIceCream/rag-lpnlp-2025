@@ -473,5 +473,4 @@ if __name__ == "__main__":
         server_port=args.port,
         share=args.share,
         show_error=True,
-        reload=True
     )
