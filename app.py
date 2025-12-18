@@ -433,7 +433,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--data",
         type=str,
-        default="data/full_dataset.csv",
+        default="data/small_dataset.csv",
         help="Path to recipes CSV file"
     )
     parser.add_argument(
