@@ -1,3 +1,14 @@
+---
+title: Recipe RAG System
+sdk: gradio
+sdk_version: 4.0.0
+app_file: app.py
+pinned: false
+license: mit
+tags:
+  - rag
+---
+
 # 🍳 Recipe RAG Question Answering System
 
 A Retrieval-Augmented Generation (RAG) system for answering questions about recipes. Built as a course project for the LLM/NLP course at Lviv Polytechnic National University.
