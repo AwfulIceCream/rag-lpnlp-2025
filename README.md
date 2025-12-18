@@ -63,7 +63,7 @@ A Retrieval-Augmented Generation (RAG) system for answering questions about reci
 ### 1. Clone the repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/AwfulIceCream/rag-lpnlp-2025.git
 cd rag-lpnlp-2025
 ```
 
@@ -198,10 +198,6 @@ rag-lpnlp-2025/
 "Soup recipe with potatoes"
 "Healthy breakfast ideas"
 ```
-
-## Authors
-
-- [Your Name] - LLM/NLP Course Project
 
 ## License
 
