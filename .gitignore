@@ -55,4 +55,20 @@ Thumbs.db
 *.temp
 
 # data folder
-data/
+data/*
+!data/small_dataset.csv
+
+# ML Model Weights & Binaries
+*.ckpt
+*.h5
+*.h6
+*.pb
+*.pt
+*.pth
+*.safetensors
+*.onnx
+*.gguf
+
+# Experiment Tracking
+wandb/
+mlruns/

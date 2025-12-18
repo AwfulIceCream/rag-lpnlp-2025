@@ -1,0 +1,17 @@
+# Core dependencies
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Retrieval
+rank-bm25>=0.2.2
+sentence-transformers>=2.2.0
+
+# LLM
+litellm>=1.0.0
+
+# UI
+gradio>=4.0.0
+
+# Utilities
+tqdm>=4.65.0
+
