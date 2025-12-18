@@ -55,7 +55,8 @@ Thumbs.db
 *.temp
 
 # data folder
-data/
+data/*
+!data/small_dataset.csv
 
 # ML Model Weights & Binaries
 *.ckpt
